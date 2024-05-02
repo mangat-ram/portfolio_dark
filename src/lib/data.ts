@@ -1,23 +1,26 @@
+import { IconType } from "react-icons";
+import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
+
 type SocialsArrType = {
   link: string;
   label: string;
-  icon: string;
+  icon: IconType;
 }
 
 export const SocialsArr: Array<SocialsArrType> = [
   {
     link:"www.linkedin.com/in/mangat-ram-dev",
     label:"LinkedIn",
-    icon:""
+    icon:SiLinkedin
   },
   {
     link:"https://github.com/mangat-ram",
     label:"GitHub",
-    icon:""
+    icon:SiGithub
   },
   {
     link:"{twitterUrl}",
     label:"Twitter",
-    icon:""
+    icon:SiX
   }
 ]

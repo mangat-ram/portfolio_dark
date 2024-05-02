@@ -2,6 +2,8 @@ import React from "react"
 
 export default function NavBar() {
   return (
-    <div>NavBar</div>
+    <nav>
+      <h1>Mangat Leelaram 👨🏻‍💻</h1>
+    </nav>
   )
 }

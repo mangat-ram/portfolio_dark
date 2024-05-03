@@ -1,10 +1,15 @@
 import { IconType } from "react-icons";
-import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
+import { SiGit, SiGithub, SiJavascript, SiLinkedin, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiSupabase, SiTailwindcss, SiX } from "react-icons/si";
 
 type SocialsArrType = {
   link: string;
   label: string;
   icon: IconType;
+}
+
+type SkillsArrType = {
+  title:string;
+  icon: IconType
 }
 
 export const SocialsArr: Array<SocialsArrType> = [
@@ -23,4 +28,43 @@ export const SocialsArr: Array<SocialsArrType> = [
     label:"Twitter",
     icon:SiX
   }
+]
+
+export const SkillsArr: Array<SkillsArrType> = [
+  {
+    title:"JavaScript",
+    icon:SiJavascript
+  },
+  {
+    title:"Git",
+    icon:SiGit
+  },
+  {
+    title:"React",
+    icon:SiReact
+  },
+  {
+    title:"Next.js",
+    icon:SiNextdotjs
+  },
+  {
+    title:"Tailwind",
+    icon:SiTailwindcss
+  },
+  {
+    title:"NodeJs",
+    icon:SiNodedotjs
+  },
+  {
+    title:"Postgresql",
+    icon:SiPostgresql
+  },
+  {
+    title:"Supabase",
+    icon:SiSupabase
+  },
+  {
+    title:"Tailwind",
+    icon:SiTailwindcss
+  },
 ]

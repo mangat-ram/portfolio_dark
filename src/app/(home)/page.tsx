@@ -5,7 +5,7 @@ import HeroSection from "./components/HeroSection"
 export default function Page() {
   return (
     <div className="min-h-screen bg-black">
-      <div>
+      <div className="max-w-7xl mx-auto sm:p-5 overflow-hidden">
         <NavBar />
         <HeroSection />
       </div>

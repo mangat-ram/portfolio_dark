@@ -3,7 +3,7 @@ import React from "react"
 
 export default function HeroSection() {
   return (
-    <div className="min-h-[60vh] flex items-center justify-around">
+    <div className="min-h-[60vh] flex items-center justify-between">
       <div className="space-y-8">
         <h1 className="text-3xl lg:text-6xl font-bold">Nice to meet you! 👋
           <br/><span className="underline underline-offset-8 decoration-green-500">I&apos;m Mangat.</span>

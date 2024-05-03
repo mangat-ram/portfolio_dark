@@ -1,5 +1,6 @@
 import Link from "next/link"
 import React from "react"
+import { MovingBorderBtn } from "./ui/moving-border"
 
 export default function HeroSection() {
   return (
@@ -20,8 +21,8 @@ export default function HeroSection() {
           </div>
         </Link>
       </div>
-          <div className="w-72 h-72 space-y-3 -rotate-[30deg]">
-            <div className="flex gap-3 translate-x-8">
+      <div className="w-72 h-72 space-y-3 -rotate-[30deg] relative">
+          <div className="flex gap-3 translate-x-8">
             <div className="w-32 h-32 rounded-2xl bg-green-500"></div>
             <div className="w-32 h-32 rounded-full bg-indigo-500"></div>
           </div>
@@ -30,7 +31,13 @@ export default function HeroSection() {
             <div className="w-32 h-32 rounded-full bg-green-500"></div>
           </div>
           <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
-        </div>
+          <div className="">
+            {/* absolute bottom-5 sm:bottom-14 left-0 sm:-left-10 */}
+            <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
+              <p> 💼 Available for Work</p>
+            </MovingBorderBtn>
+          </div>
+      </div>
     </div>
   )
 }

@@ -3,8 +3,8 @@ import React from "react"
 
 export default function HeroSection() {
   return (
-    <div className="min-h-[60vh] flex items-center justify-around">
-      <div className="space-y-8">
+    <div className="min-h-[60vh] flex items-center justify-between">
+      <div>
         <h1 className="text-3xl lg:text-6xl font-bold">Nice to meet you! 👋
           <br/><span className="underline underline-offset-8 decoration-green-500">I&apos;m Mangat.</span>
         </h1>
@@ -12,7 +12,7 @@ export default function HeroSection() {
           Based in India, I&apos;m a Fullstack developer passionate
           about building a modern web application that users love.
         </p>
-        <Link href={"mailto:someone@gmail.com"} className="inline-block">
+        <Link href={"mailto:someone@gmail.com"}>
           <div>
             <h1>Contact Me 📫</h1>
           </div>

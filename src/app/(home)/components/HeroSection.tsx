@@ -12,9 +12,11 @@ export default function HeroSection() {
           Based in India, I&apos;m a Fullstack developer passionate
           about building a modern web application that users love.
         </p>
-        <Link href={"mailto:someone@gmail.com"} className="inline-block">
+        <Link href={"mailto:someone@gmail.com"} className="inline-block group">
           <div>
-            <h1>Contact Me 📫</h1>
+            <h1 className="text-3xl font-bold group-hover:text-green-500 transition-all">Contact Me 📫</h1>
+            <div className="w-40 h-2 bg-green-500 rounded-full"></div>
+            <div className="w-40 h-2 bg-indigo-500 rounded-full translate-x-2"></div>
           </div>
         </Link>
       </div>

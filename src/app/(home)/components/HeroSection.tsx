@@ -3,8 +3,8 @@ import React from "react"
 
 export default function HeroSection() {
   return (
-    <div className="min-h-[60vh] flex items-center justify-between">
-      <div className="space-y-8">
+    <div className="px-12 min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between">
+      <div className="space-y-8 text-center lg:text-left">
         <h1 className="text-3xl lg:text-6xl font-bold">Nice to meet you! 👋
           <br/><span className="underline underline-offset-8 decoration-green-500">I&apos;m Mangat.</span>
         </h1>
@@ -29,6 +29,7 @@ export default function HeroSection() {
             <div className="w-32 h-32 rounded-2xl bg-indigo-500"></div> 
             <div className="w-32 h-32 rounded-full bg-green-500"></div>
           </div>
+          <div className="glow"></div>
         </div>
     </div>
   )
